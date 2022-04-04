@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T05:02:01.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" version="17.4.0" etag="hPIo-OgTNbWMenIPHaDH" type="github"><diagram id="vGG2SZ8saqOgUQT0xnhs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-04T12:23:41.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="SNragylGdzavAVew3kch" version="17.4.0" type="github">
+  <diagram id="vGG2SZ8saqOgUQT0xnhs" name="Page-1">
+    <mxGraphModel dx="380" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xcgie3UIrspCMOsOO5so-1" value="健身项目" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-2" value="项目名称" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=center;fontStyle=4;verticalAlign=top;" vertex="1" parent="xcgie3UIrspCMOsOO5so-1">
+          <mxGeometry y="30" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-3" value="项目安排&#xa;                     时间&#xa;                     场馆&#xa;                     教练" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xcgie3UIrspCMOsOO5so-1">
+          <mxGeometry y="50" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-4" value="客户" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="75" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-5" value="客户编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=center;fontStyle=4;verticalAlign=top;" vertex="1" parent="xcgie3UIrspCMOsOO5so-4">
+          <mxGeometry y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-6" value="姓名&#xa;性别&#xa;出生日期&#xa;电话&#xa;身高&#xa;体重&#xa;主管教练" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xcgie3UIrspCMOsOO5so-4">
+          <mxGeometry y="50" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-7" value="教练" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-8" value="教练编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=center;fontStyle=4;verticalAlign=top;" vertex="1" parent="xcgie3UIrspCMOsOO5so-7">
+          <mxGeometry y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-9" value="姓名&#xa;性别&#xa;出生日期&#xa;电话&#xa;擅长的健身项目" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xcgie3UIrspCMOsOO5so-7">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-10" value="健身记录" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-11" value="记录编号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;align=center;fontStyle=4;verticalAlign=top;" vertex="1" parent="xcgie3UIrspCMOsOO5so-10">
+          <mxGeometry y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-12" value="开始时间&#xa;结束时间&#xa;训练场馆&#xa;健身教练&#xa;训练项目" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xcgie3UIrspCMOsOO5so-10">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="160" />
+            </Array>
+            <mxPoint x="310" y="162.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-32" target="xcgie3UIrspCMOsOO5so-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-32" value="主管" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-36" target="xcgie3UIrspCMOsOO5so-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-36" target="xcgie3UIrspCMOsOO5so-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="465" />
+              <mxPoint x="330" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-36" value="对应" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="371" y="445" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-39" target="xcgie3UIrspCMOsOO5so-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-39" value="对应" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=15;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="373.5" y="320.67" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-11" target="xcgie3UIrspCMOsOO5so-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-44" target="xcgie3UIrspCMOsOO5so-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.435;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="xcgie3UIrspCMOsOO5so-44" target="xcgie3UIrspCMOsOO5so-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcgie3UIrspCMOsOO5so-44" value="对应" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="300" width="85" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
